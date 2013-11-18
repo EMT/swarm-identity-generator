@@ -1,0 +1,72 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<!--
+	Welcome to the source.
+	It's been our pleasure.
+	-->
+
+	<title>Page Title</title>
+
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr.js"></script>
+</head>
+<body>
+
+	<div id="svg-container"></div>
+
+	<div class="controls">
+
+		<label for="color">Circles 
+			<input type="text" id="circle-count" value="600" />
+		</label>
+
+		<label for="color">Circle size (px) 
+			<input type="text" id="circle-size" value="3" />
+		</label>
+
+		<label for="color">Spread (px)
+			<input type="text" id="random-spread" value="80" />
+		</label>
+		
+		<label for="color">Weighting
+			<input type="text" id="random-weight" value="2.5" />
+		</label>
+
+		<label for="random-segment-lengths">
+			<input type="checkbox" id="random-segment-lengths" checked="checked"> Random segment length
+		</label>
+
+		<label for="color">Color 
+			<input type="text" id="color" value="rgb(255,255,255)" />
+		</label>
+
+		<label for="color">Background Color 
+			<input type="text" id="bg-color" value="rgb(255,181,60)" />
+		</label>
+
+		<label for="single-color">
+			<input type="checkbox" id="single-color" checked="checked"> Single Colour
+		</label>
+
+		<button id="refresh">Refresh</button>
+
+		<a id="download-btn" class="btn" href="#" download="swarm.svg">Download SVG</a>
+
+		<textarea id="code" rows="7"></textarea>
+
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/snap.svg.js"></script>
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
